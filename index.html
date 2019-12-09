@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <div class="row dFlexJC">
+        <div class="calculatorBorder">
+
+          <form class="inputWrapper" action="" name="display">
+            <input class="display" type="text" maxlength="17" readonly>
+          </form>
+
+          <div class="mainFunctions">
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <button data-func="clear">C</button>
+                  </td>
+                  <td>
+                    <button data-func="divide">&#247;</button>
+                  </td>
+                  <td>
+                    <button data-func="multiply">&#215;</button>
+                  </td>
+                  <td>
+                    <button data-func="back">&#8592;</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button data-number="7">7</button>
+                  </td>
+                  <td>
+                    <button data-number="8">8</button>
+                  </td>
+                  <td>
+                    <button data-number="9">9</button>
+                  </td>
+                  <td>
+                    <button data-func="minus">&#8212;</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button data-number="4">4</button>
+                  </td>
+                  <td>
+                    <button data-number="5">5</button>
+                  </td>
+                  <td>
+                    <button data-number="6">6</button>
+                  </td>
+                  <td>
+                    <button data-func="plus">+</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button data-number="1">1</button>
+                  </td>
+                  <td>
+                    <button data-number="2">2</button>
+                  </td>
+                  <td>
+                    <button data-number="3">3</button>
+                  </td>
+                  <td>
+                    <button data-func="Pi">&#928;</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button data-number="0">0</button>
+                  </td>
+                  <td>
+                    <button data-func="dot">.</button>
+                  </td>
+                  <td>
+                    <button data-func="changeValue">&#177;</button>
+                  </td>
+                  <td>
+                    <button data-func="=">=</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src='./script.js'></script>
+</body>
+
+</html>

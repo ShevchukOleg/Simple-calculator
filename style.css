@@ -1,0 +1,146 @@
+/*Reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+ }
+
+article, aside, details, figcaption, figure, main, footer, header, hgroup, menu, nav, section {
+  display: block;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*variables*/
+
+
+/*main*/
+section, header {
+  width: 100%;
+  background-color: rgb(115, 33, 163);
+}
+
+.container {
+  max-width: 1158px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 10px;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  padding: 30px 15px;
+  margin: 0;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+.calculatorBorder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 520px;
+  width: 350px;
+  border: 5px solid #5162ff;
+  border-radius: 7px;
+  background-color: bisque;
+  padding: 20px 15px;
+}
+
+.inputWrapper {
+  height: 85px;
+  padding: 5px;
+  background-color: white;
+}
+input.display {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: #F4F4F4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+  text-align: right;
+}
+
+.mainFunctions {
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+}
+
+.mainFunctions table {
+  background-color: #F4F4F4;
+  width: 100%;
+  height: 375px;
+}
+
+.mainFunctions table td {
+  text-align: center;
+  height: 75px;
+}
+
+.mainFunctions table td button {
+  height: 65px;
+  width: 65px;
+  border-radius: 4px;
+  outline: lightcyan;
+  cursor: pointer;
+}
+
+.mainFunctions table td button:hover {
+  background-color: #cdcad1;
+}
+
+.dFlexJC {
+  display: flex;
+  justify-content: center;
+}
+
+.dFlexJSB {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dFlexAlIC {
+  display: flex;
+  align-items: center;
+}
+
+
+.textCenter {
+  text-align: center;
+}
